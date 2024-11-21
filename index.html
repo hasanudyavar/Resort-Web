@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resort Website</title>
+    <!-- Google Font for special theme -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container navbar-container">
+        <a class="navbar-brand" href="#">Blue Pearl</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resort-photos">Visit</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div>
+        <h1>Welcome to Blue Pearl</h1>
+        <p class="hero-text">Experience a world of luxury and relaxation</p>
+        <a href="#resort-photos" class="btn-custom">Explore Now</a>
+      </div>
+    </section>
+
+    <!-- Resort Photos Section -->
+    <section id="resort-photos" class="section">
+      <div class="container">
+        <h2 class="hero-text">Visit Our Resort</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card card-custom">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1663126637580-ff22a73f9bfc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Resort Image 1"
+              />
+              <div class="card-body card-text">
+                <h5 class="card-title">Luxurious Rooms</h5>
+                <p class="card-text">
+                  Our rooms offer the best comfort and are equipped with all
+                  modern amenities.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-custom">
+              <img
+                src="https://images.unsplash.com/photo-1464757494038-157e877f60d4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Resort Image 2"
+              />
+              <div class="card-body card-text">
+                <h5 class="card-title">Stunning Views</h5>
+                <p class="card-text">
+                  Enjoy breathtaking views from every corner of our resort.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-custom">
+              <img
+                src="https://images.unsplash.com/photo-1652868965179-691e57c7ea10?q=80&w=1977&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Resort Image 3"
+              />
+              <div class="card-body card-text">
+                <h5 class="card-title">World-Class Jacuzzi</h5>
+                <p class="card-text">
+                  Relax and unwind with our full-service spa treatments.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="section">
+      <div class="container">
+        <h2 class="hero-text">About Blue Pearl</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="paragraph">
+              Welcome to our luxurious resort, where comfort meets luxury in a
+              tranquil, serene environment. Nestled in the heart of nature, we
+              provide the perfect getaway to unwind, relax, and rejuvenate.
+              Whether you're here for a weekend escape or a long vacation, we
+              offer a wide range of amenities and experiences to make your stay
+              unforgettable.
+            </p>
+            <h4 class="hero-text">Why Choose Us?</h4>
+            <ul class="paragraph">
+              <li>World-class spa and wellness treatments</li>
+              <li>Scenic views and peaceful surroundings</li>
+              <li>Spacious, luxurious rooms equipped with modern amenities</li>
+              <li>24/7 concierge and personalized services</li>
+              <li>
+                Multiple dining options offering local and international
+                cuisines
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h4 class="hero-text">Customer Testimonials</h4>
+            <div class="testimonial">
+              <p>
+                "This resort is absolutely amazing! The views are breathtaking,
+                the rooms are immaculate, and the staff is incredibly attentive.
+                We had an unforgettable experience!"
+              </p>
+              <p class="author">- Emily R., Guest</p>
+            </div>
+            <div class="testimonial">
+              <p>
+                "A truly relaxing experience. The spa treatments were out of
+                this world, and I loved every moment of my stay. Can't wait to
+                return!"
+              </p>
+              <p class="author">- John D., Guest</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-container">
+      <div class="container">
+        <h2 class="contact-us">Contact Us</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Your Name"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Your Email"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="4"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-custom">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2024 Resort. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap 5 JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

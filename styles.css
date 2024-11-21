@@ -1,0 +1,170 @@
+/* Black, Red, and White Theme */
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Merriweather', serif; /* A classy Google font */
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  color: #a4161a;  /* Slightly lighter hover color */
+}
+
+.hero {
+  background: url('https://images.unsplash.com/reserve/8T8J12VQxyqCiQFGa2ct_bahamas-atlantis.jpg?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-text {
+  padding-bottom: 10px;
+  font-size: 3rem;  /* Larger size for a classy feel */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Subtle text shadow */
+}
+
+.btn-custom {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: black;
+  color: #a4161a;
+}
+
+.section {
+  padding: 60px 20px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.card-text {
+  color: black;
+}
+
+.footer {
+  background-color: #161a1d;
+  color: #a4161a;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Make all cards the same size */
+.card-custom {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-custom .card-img-top {
+  object-fit: cover;
+  height: 200px;  /* Fixed height for the image */
+}
+
+.card-custom .card-body {
+  flex-grow: 1;  /* Allow the card body to take up remaining space */
+}
+
+.card-custom .card-body h5 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card-custom .card-body p {
+  font-size: 1rem;
+}
+
+.contact-us {
+  color: white;
+}
+
+.form-label {
+  color: white;
+}
+
+/* About Us Section */
+#about-us {
+  padding: 60px 0;
+  background: url("https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center / cover;
+}
+
+#about-us .hero-text {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#about-us .row {
+  margin-bottom: 30px;
+}
+
+#about-us p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+#about-us h4 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+#about-us ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#about-us ul li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+#about-us ul li:before {
+  content: '✔';
+  position: absolute;
+  left: -25px;
+}
+
+.testimonial {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.testimonial .author {
+  font-weight: bold;
+  font-style: italic;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.paragraph {
+  color: white;
+}
